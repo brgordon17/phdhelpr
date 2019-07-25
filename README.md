@@ -5,14 +5,17 @@
 
 <!-- badges: start -->
 
+[![License:
+MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 <!-- badges: end -->
 
-The goal of phdhelpr is to …
+phdhelpr is a simple package based repository for helper functions used
+in my thesis
 
-## Installation
+### Installation
 
-If you wish to use these helper functions, you can install the
-development version of phdhelpr from [GitHub](https://github.com/) with:
+You can install the development version of phdhelpr from
+[GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
