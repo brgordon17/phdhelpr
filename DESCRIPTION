@@ -1,11 +1,12 @@
 Package: phdhelpr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: phdhelpr stores commonly used helper functions
 Version: 0.0.0.9000
 Authors@R: c(person("Benjamin", "Gordon", email = "brgordon17@gmail.com", 
-    role = c("aut", "cre"))
+    role = c("aut", "cre")))
 Description: This package contains a number of helper functions used in the
     analysis of experiments for BRGs PhD.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.1.1
