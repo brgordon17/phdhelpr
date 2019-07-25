@@ -18,7 +18,7 @@ qual_colours <- c("#E69F00",
                   "#CC79A7",
                   "#999999")
 
-#' Sarah and Duck Colours
+#' Sarah and Duck Colour Palette
 #'
 #' Colour palette derived from the TV show Sarah and Duck.
 #'
@@ -35,7 +35,7 @@ sd_colours <- c("#73BE97",
                 "#E9898D",
                 "#D2CA65")
 
-#' Yellow Orange Red Sequential colours
+#' Warm Colour Palette
 #'
 #' Five sequential colours from the YlOrRd palette at colorbrewer.org.
 #'
