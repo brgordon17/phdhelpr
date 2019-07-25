@@ -9,7 +9,7 @@
 MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 <!-- badges: end -->
 
-phdhelpr is a simple package based repository for helper functions used
+phdhelpr is a simple package-based repository for helper functions used
 in my thesis
 
 ### Installation
