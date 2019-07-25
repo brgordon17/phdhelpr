@@ -18,3 +18,9 @@ development version of phdhelpr from [GitHub](https://github.com/) with:
 # install.packages("devtools")
 devtools::install_github("brgordon17/phdhelpr")
 ```
+
+### License
+
+MIT License. Copyright (c) 2019 Benjamin R. Gordon.
+
+For more information, please see the [LICENSE](LICENSE.md) file.
