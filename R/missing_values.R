@@ -34,10 +34,10 @@
 #'
 
 
-MissingValues <-function(inputdata, column.cutoff=NULL, group.cutoff=NULL,
-                         complete.matrix=FALSE, seed=100, saveoutput=FALSE,
-                         outputname="missing.values.rep")
-{
+missing_values <-function(inputdata, column.cutoff=NULL, group.cutoff=NULL,
+                          complete.matrix=FALSE, seed=100, saveoutput=FALSE,
+                          outputname="missing.values.rep")
+  {
   set.seed(seed)
   inputdata <- cbind(row.names(inputdata), inputdata)
   if (is.null(column.cutoff)) {
