@@ -21,13 +21,12 @@
 #'
 #' @return returns an object with class \code{metabdata}.
 #'
-#' @note Although this function is exported, \code{mzpls()} was not intended to
-#' be used outside of this package.
+#' @note This function was copied from the now deprecated \code{metabolimcs}
+#' package. Authors listed below.
 #'
 #' @seealso
 #' \href{https://github.com/cran/metabolomics}
 #'
-#' @author Benjamin R. Gordon
 #' @author Alysha M De Livera
 #' @author Jairus Brown
 #'
