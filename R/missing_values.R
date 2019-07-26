@@ -21,11 +21,11 @@
 #'
 #' @return returns an object with class \code{metabdata}.
 #'
-#' @note This function was copied from the now deprecated \code{metabolimcs}
+#' @note This function was copied from the now deprecated \code{metabolomics}
 #' package. Authors listed below.
 #'
 #' @seealso
-#' \href{https://github.com/cran/metabolomics}
+#' \href{https://github.com/cran/metabolomics}{metabolomics}
 #'
 #' @author Alysha M De Livera
 #' @author Jairus Brown
@@ -40,19 +40,18 @@ missing_values <-function(inputdata, column.cutoff=NULL, group.cutoff=NULL,
   {
   set.seed(seed)
   inputdata <- cbind(row.names(inputdata), inputdata)
+
   if (is.null(column.cutoff)) {
     stop("Enter a column cut-off")
   }
+
   if (is.null(group.cutoff)) {
     stop("Enter a group cut-off")
   }
 
-  warning(
-    paste("If the data contains a large proportion of missing",
-          "values, please try to\n  reduce the number of missing values",
-          "in the preprocessing step."
-    ), ""
-  )
+  warning("If the data contains a large proportion of missing values, please try
+          to reduce the number of missing values in the preprocessing step."
+          )
 
   # Get base information
   groups <- levels(factor(inputdata[, 2], levels=unique(inputdata[, 2])))
