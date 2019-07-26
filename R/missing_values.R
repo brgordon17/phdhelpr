@@ -30,6 +30,8 @@
 #' @author Alysha M De Livera
 #' @author Jairus Brown
 #'
+#' @import stats
+#'
 #' @export
 #'
 
@@ -140,7 +142,7 @@ missing_values <-function(inputdata, column.cutoff=NULL, group.cutoff=NULL,
   write(' -> Done!', '')
 
   if (saveoutput) {
-    write.csv(out_data[, -1], paste(c(outputname, ".csv"), collapse=""))
+    utils::write.csv(out_data[, -1], paste(c(outputname, ".csv"), collapse=""))
   }
   output <- c()
   output$output <- out_data[, -1]
